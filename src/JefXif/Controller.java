@@ -13,7 +13,7 @@ import javafx.scene.layout.Pane;
  * 
  * @author Matthew
  */
-public abstract class MainController implements Initializable {
+public abstract class Controller implements Initializable {
     
     private String path;
     

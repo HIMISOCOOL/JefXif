@@ -15,7 +15,7 @@ import javafx.scene.layout.Pane;
  */
 public abstract class WindowController implements Initializable{
     Pane pane;
-    public MainController mainController;
+    public Controller mainController;
     private final String fxml;
 
     /**
@@ -41,7 +41,7 @@ public abstract class WindowController implements Initializable{
     public void initialize(URL url, ResourceBundle resources) {
         
     }
-    public WindowController(MainController mainController, String FXML) {
+    public WindowController(Controller mainController, String FXML) {
         this.mainController = mainController;
         this.fxml = FXML;
     }
