@@ -38,9 +38,8 @@ public abstract class WindowController implements Initializable{
     public abstract void windowInView();
 
     @Override
-    public void initialize(URL url, ResourceBundle resources) {
-        
-    }
+    public abstract void initialize(URL url, ResourceBundle resources);
+    
     public WindowController(Controller mainController, String FXML) {
         this.mainController = mainController;
         this.fxml = FXML;
