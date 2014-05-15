@@ -28,7 +28,7 @@ public abstract class Controller implements Initializable {
      * @param node the vista node to be swapped in.
      */
     public void swapWindow(Node node) {
-        getMainPane().getChildren().setAll(node);
+        this.mainPane.getChildren().set(0, node);
     }
     
     /**
